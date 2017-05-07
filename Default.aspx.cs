@@ -9,6 +9,6 @@ public partial class _Default : Page
 {
     protected void Page_Load(object sender, EventArgs e)
     {
-
+        lb1.Text = System.Configuration.ConfigurationSettings.AppSettings["name"];
     }
 }
